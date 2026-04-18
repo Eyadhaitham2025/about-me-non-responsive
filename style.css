@@ -1,0 +1,123 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  direction: rtl;
+  color: #333;
+}
+
+/* Hero Section */
+header {
+  background: linear-gradient(135deg, #007aff, #4a90e2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+header h1 {
+  font-size: 4em;
+  margin: 0;
+}
+header p {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+header .btn {
+  background: #fff;
+  color: #007aff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+header .btn:hover {
+  background: #007aff;
+  color: #fff;
+}
+
+/* Sections */
+section {
+  background: #fff;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 1000px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+section h2 {
+  color: #007aff;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+section p {
+  line-height: 1.8;
+  font-size: 1.1em;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.skills span {
+  background: linear-gradient(135deg, #4a90e2, #007aff);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.skills span:hover {
+  transform: scale(1.1);
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background: #f0f2f5;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.card h3 {
+  margin-top: 0;
+  color: #007aff;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.5em;
+  }
+  header p {
+    font-size: 1.2em;
+  }
+  section {
+    padding: 20px;
+  }
+}
